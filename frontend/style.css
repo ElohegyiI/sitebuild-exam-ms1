@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+
+  /*------css reset--------*/
+
+  #sec1 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #efd592;
+      
+  }
+
+  #sec1 .button1 button {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #242d38;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+      
+  }
+
+  #sec1 .button1 button h1 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2em;
+    color: #efd592;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+
+  #sec1 .button2 button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #efd592;
+    border: 6px solid #242d38;
+  }
+
+  #sec1 .button2 button h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  #sec2 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #4343f9;
+    position: relative;
+  }
+
+  #sec2 .button3 button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background-color: #4343f9;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 5px 7px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  #sec2 .button3 button h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.2em;
+    color: #ffff;
+    font-weight: lighter;
+    
+  }
